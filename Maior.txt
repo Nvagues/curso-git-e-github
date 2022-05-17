@@ -1,0 +1,14 @@
+<script>
+
+var a = 2;
+var b = 22;
+
+if( a > b) 
+{
+alert(a);
+}
+else (a < b)
+{
+alert(b);
+}
+</script>

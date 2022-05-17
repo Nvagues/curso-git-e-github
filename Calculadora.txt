@@ -1,0 +1,56 @@
+<script>
+
+ function soma(a, b)
+ {
+  alert(a + b);
+ }
+
+ soma (1, 2); 
+
+</script>
+
+<script>
+
+ function divisao(a, b)
+ {
+  alert(a / b);
+ }
+
+ divisao (1, 2); 
+
+</script>
+
+
+<script>
+
+function calculadora(a, operador, b) {
+
+
+ if(operador == " + ") {
+
+  soma(a, b);}
+
+
+ else if ( operador == " - "){
+ 
+  subtracao(a, b);}
+
+ 
+ else if ( operador == " * "){
+ 
+  multiplicacao(a, b);}
+
+ 
+ 
+ else if  ( operador == " / "){
+ 
+  divisao(a, b);}
+ }
+ 
+ calculadora(1," + ", 2);
+ calculadora(1," - ", 2);
+ calculadora(1," * ", 2);
+ calculadora(1," / ", 2);
+
+ 
+ </script>
